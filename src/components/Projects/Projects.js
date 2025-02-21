@@ -70,8 +70,8 @@ function Projects() {
               isBlog={false}
               title="Quiz App"
               description="Tech Stack: React, Vite, React Router Dom, React Hook Form, Axios, JWT decode, React Toastify, Bootstrap, Chart.js, Framer Motion, Netlify.Overview:An interactive quiz system for seamless quiz creation and participation secure authentication."
-              ghLink="https://github.com/Mohamed22Yousri/QuizApp"
-              demoLink="https://quizwiz1app.netlify.app/"
+              ghLink="https://github.com/Mohamed22Yousri/Quiz"
+              demoLink="https://quizwizapps.netlify.app/"
             />
           </Col>
         </Row>
