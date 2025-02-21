@@ -1,68 +1,57 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { TbHtml } from "react-icons/tb";
+import { IoLogoVue } from "react-icons/io5";
+import { SiTailwindcss } from "react-icons/si";
+import { SiVuetify } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { TbBrandBootstrap } from "react-icons/tb";
+import { SiVite } from "react-icons/si";
+
+import { DiJavascript1, DiReact, DiGit } from "react-icons/di";
+import { SiNextdotjs } from "react-icons/si";
+import { MdCss } from "react-icons/md";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <TbHtml />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <MdCss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiTypescript style={{ color: "black", background: "white" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoVue />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuetify />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandBootstrap />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col>
     </Row>
   );

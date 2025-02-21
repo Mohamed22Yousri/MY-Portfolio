@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import PFood from "../../Assets/Projects/FMS.PNG";
+import alaraby from "../../Assets/Projects/elarby-eccomerce.PNG";
+import store from "../../Assets/Projects/store.PNG";
+import hms from "../../Assets/Projects/hms.PNG";
+import quiz from "../../Assets/Projects/quizz.PNG";
 
 function Projects() {
   return (
@@ -23,68 +22,56 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={PFood}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title=" Food Management System"
+              description="A web platform with Admin and User portals for managing and browsing recipes, build with React, React-router-dom, Vit, Bootstrap, jwt-decode, axios. Deployment with Netlify"
+              ghLink="https://github.com/Mohamed22Yousri/Food-project.React"
+              demoLink="https://food-system-vit-js.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={alaraby}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Alaraby E-commerce"
+              description="Designed and developed a scalable online store for selling laptops, mobile phones, and electronic appliances. The platform provides a seamless shopping experience where users can browse products, add items to their cart, and complete purchases easily."
+              ghLink="https://github.com/Mohamed22Yousri/elaraby-eccomerce"
+              demoLink="https://gleaming-torrone-009c9e.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={store}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="E-commerce Store"
+              description="Built an interactive online store using React and Bootstrap for selling men’s, women’s, and kids’ clothing. The platform offers smooth shopping experience with user-friendly interface, allowing customers browse categories, add items to cart."
+              ghLink="https://github.com/Mohamed22Yousri/E_Commercce"
+              demoLink="https://curious-semifreddo-99c0e3.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={hms}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Hotel Management System"
+              description="Tech Stack: React, MUI, Stripe, GitHub, Figma RESTful APIs, Toastify, jwt  Overview: Developed a comprehensive Hotel Management System in collaboration with a team, offering seamless hotel management and an excellent user experience."
+              ghLink="https://github.com/Mohamed22Yousri/HMS"
+              demoLink="https://hotels-system.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={quiz}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Quiz App"
+              description="Tech Stack: React, Vite, React Router Dom, React Hook Form, Axios, JWT decode, React Toastify, Bootstrap, Chart.js, Framer Motion, Netlify.Overview:An interactive quiz system for seamless quiz creation and participation secure authentication."
+              ghLink="https://github.com/Mohamed22Yousri/QuizApp"
+              demoLink="https://quizwiz1app.netlify.app/"
             />
           </Col>
         </Row>

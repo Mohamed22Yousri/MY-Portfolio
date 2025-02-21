@@ -6,3 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+.navbar .container .logo {
+  color: var(--imp-text-color) !important;
+  font-size: bold;
+  font-size: 2.5rem;
+}
