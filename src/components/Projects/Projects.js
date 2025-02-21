@@ -59,8 +59,8 @@ function Projects() {
               isBlog={false}
               title="Hotel Management System"
               description="Tech Stack: React, MUI, Stripe, GitHub, Figma RESTful APIs, Toastify, jwt  Overview: Developed a comprehensive Hotel Management System in collaboration with a team, offering seamless hotel management and an excellent user experience."
-              ghLink="https://github.com/Mohamed22Yousri/HMS"
-              demoLink="https://hotels-system.netlify.app/"
+              ghLink="https://github.com/Mohamed22Yousri/Hotels-System"
+              demoLink="https://hotelssystem.netlify.app/"
             />
           </Col>
 
