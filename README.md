@@ -3,7 +3,7 @@
   <a href="https://soumyajit.vercel.app/" target="_blank">Mohamed Yousri</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+  <img alt="Demo" src="./Images/web-img.png" />
 </div>
 
 <br/>
